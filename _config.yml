@@ -19,9 +19,10 @@ sidebar-avatar: /img/shaun.jpg      # use absolute URL, seeing it's used in both
 # SNS settings
 RSS: false
 # weibo_username:     qiubaiying
-zhihu_username:     陆生
+zhihu_username:     lu-sheng-83-99
 github_username:    zryang
 facebook_username:  ZorroYoung
+gmail_username:     zryang@gmail.com
 #jianshu_username:   e71990ada2fd
 #twitter_username:   qiubaiying
 
