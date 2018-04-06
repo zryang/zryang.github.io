@@ -1,30 +1,29 @@
 # Site settings
-title: Shaun Young
-SEOTitle: 山夕为岁
+title: Shaun Young          #博客网站标题
+SEOTitle: 山夕为岁           #SEO标题
 header-img: img/post-bg-desk.jpg
 email: yzr2064@gmail.com
-description: "the first words."
+description: "the first words."    #封面上的话
 keyword: "Shaun Young, code, OJ, blog, 杨子荣"
 url: "http://zryang.github.io"          # your host, for absolute URL
-baseurl: ""      # for example, '/blog' if your blog hosted on 'host/blog'
+baseurl: "/"      # for example, '/blog' if your blog hosted on 'host/blog'
 github_repo: "https://github.com/zryang/zryang.github.io" # you code repository
 
 # Sidebar settings
-sidebar: true                           # whether or not using Sidebar.
-sidebar-about-description: "the second words."
+sidebar: true                #是否添加侧边栏           # whether or not using Sidebar.
+sidebar-about-description: "读书，跑步，编程，画画"   #简单描述一下自己
 sidebar-avatar: /img/shaun.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
 
 
 
 # SNS settings
 RSS: false
-# weibo_username:     qiubaiying
+weibo_username:    ahuyzr@gmail.com
 zhihu_username:     lu-sheng-83-99
 github_username:    zryang
 facebook_username:  ZorroYoung
-email:     zryang@gmail.com
 #jianshu_username:   e71990ada2fd
-#twitter_username:   qiubaiying
+twitter_username:   ZeroYounger
 
 
 
@@ -32,7 +31,7 @@ email:     zryang@gmail.com
 # Build settings
 # from 2016, 'pygments' is unsupported on GitHub Pages. Use 'rouge' for highlighting instead.
 permalink: pretty
-paginate: 10
+paginate: 10      #一页放几篇文章
 exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
 anchorjs: true                          # if you want to customize anchor. check out line:181 of `post.html`
 
@@ -58,13 +57,13 @@ kramdown:
 
 # 评论系统
 # Disqus（https://disqus.com/）
-# disqus_username: qiubaiying
+ disqus_username: shaunyoung2064
 
 # Gitalk
-gitalk:
+  gitalk:
   enable: true    #是否开启Gitalk评论
-  clientID: f2c84e7629bb1446c1a4                            #生成的clientID
-  clientSecret: ca6d6139d1e1b8c43f8b2e19492ddcac8b322d0d    #生成的clientSecret
+  clientID: e3c2f9b750ca46436d83                           #生成的clientID
+  clientSecret: c63e6484743c14de6f42efd021ed53ebb00aee1e    #生成的clientSecret
   repo: zryang.github.io    #仓库名称
   owner: zryang    #github用户名
   admin: zryang
