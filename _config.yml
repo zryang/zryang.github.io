@@ -7,7 +7,6 @@ description: "你来人间一趟，你要看看太阳"
 keyword: "Shaun Young, code, OJ"
 url: "http://zryang.github.io"              # your host, for absolute URL
 baseurl: ""                             # for example, '/blog' if your blog hosted on 'host/blog'
-github_repo: "https://github.com/zryang/zryang.github.io" # you code repository
 
 
 # SNS settings
@@ -42,7 +41,7 @@ gems: [jekyll-paginate]
 # although redcarpet can auto highlight code, the lack of header-id make the catalog impossible, so I switch to kramdown
 # document: http://jekyllrb.com/docs/configuration/#kramdown  加了一行rouge
 markdown: kramdown
-highlighter: rouge
+#highlighter: rouge
 kramdown:
   input: GFM                            # use Github Flavored Markdown !important
 
@@ -51,15 +50,6 @@ kramdown:
 # Disqus settings
 disqus_username: shaunyoung2064
 
-# Gitalk
-  gitalk:
-  enable: true    #是否开启Gitalk评论
-  clientID: e3c2f9b750ca46436d83                           #生成的clientID
-  clientSecret: c63e6484743c14de6f42efd021ed53ebb00aee1e    #生成的clientSecret
-  repo: zryang.github.io    #仓库名称
-  owner: zryang    #github用户名
-  admin: zryang
-  distractionFreeMode: true #是否启用类似FB的阴影遮罩
 
 # Netease setttings
 netease_comment: false
