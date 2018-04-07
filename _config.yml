@@ -1,5 +1,5 @@
 # Site settings
-title: Shaun Young
+title: YZR
 SEOTitle: 山夕为岁
 header-img: img/post-bg-desk.jpg
 email: yzr2064@gmail.com
@@ -12,11 +12,14 @@ baseurl: ""                             # for example, '/blog' if your blog host
 # SNS settings
 RSS: false
 weibo_username:     3880187756
-zhihu_username:     lu-sheng-83-99
-github_username:    zryang
-twitter_username:   ZeroYounger
 facebook_username:  ZorroYoung
+github_username:    zryang
+email: yzr2064@gmail.com
+#zhihu_username:     lu-sheng-83-99
+#twitter_username:   ZeroYounger
 # linkedin_username:  firstname-lastname-idxxxx
+# google_username:  101167914127123982138/posts
+# linkedin: brucezhaor
 
 
 
