@@ -88,6 +88,14 @@ service-worker: true
 # Friends
 friends: [
     {
+        title: "柏荧",
+        href: "http://qiubaiying.top/"
+    },
+    {
+        title: "黄玄",
+        href: "https://huangxuan.me/"
+    },
+    {
         title: "Apple",
         href: "https://apple.com"
     },{
