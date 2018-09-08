@@ -244,3 +244,9 @@ JavaScript 的压缩混淆、Less 的编译、Apache 2.0 许可通告的添加�
 ## License
 
 遵循 MIT 许可证。有关详细,请参阅 [LICENSE](https://github.com/qiubaiying/qiubaiying.github.io/blob/master/LICENSE)。
+
+
+
+
+
+sed '/PRIMARY/s/,.*$/\)/' test
